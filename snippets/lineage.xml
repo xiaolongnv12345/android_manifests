@@ -61,9 +61,7 @@
   <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" revision="lineage-23.2" />
 
   <!-- Legacy AOSP additions -->
-  <!--
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
-  -->
   <project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" />
   <project path="hardware/google/pixel-sepolicy" name="LineageOS/android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel,pdk-desktop" />
   <!--
